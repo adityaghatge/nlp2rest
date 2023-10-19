@@ -21,7 +21,7 @@ public class RuleExtractorProxy {
 
     private static final Logger logger = LogManager.getLogger(RuleExtractorProxy.class);
     private static final OkHttpClient httpClient = new OkHttpClient();
-    private static final String baseUrl = "http://localhost:4000";
+    private static final String baseUrl = "http://172.17.0.2:4000";
     private static final Gson gson = new Gson();
     private static final RuleFactory ruleFactory = new RuleFactory();
 
